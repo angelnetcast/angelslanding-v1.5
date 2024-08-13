@@ -43,4 +43,15 @@
     </p>
     <p><a href="/pages/home.html">HOME?</a></p>
   </body>
+  <!--TOOLTIP STYLING-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+  <script src="/scripts/tooltips.js"></script>
+
+  <script>
+    (function ($) {
+      $(document).ready(function () {
+        $("[title]").style_my_tooltips();
+      });
+    })(jQuery);
+  </script>
 </html>
