@@ -63,7 +63,7 @@ ul {
   list-style-type: disc;
 }
 
-ul > ul {
+ul>ul {
   list-style-type: circle;
 }
 
@@ -80,6 +80,15 @@ h3 {
   color: var(--mediumlight);
 }
 
+/* ----- tables ----- */
+table,
+th,
+td {
+  border: 1px solid;
+  padding: 5px;
+  border-collapse: collapse;
+}
+
 /* ----- title ----- */
 /* style-my-tootltips plugin, tooltip styling */
 #s-m-t-tooltip {
@@ -89,7 +98,8 @@ h3 {
   margin: 24px 14px 7px 12px;
   /* style and design */
   padding: 8px;
-  background: var(--light); /* fallback if rgba not supported */
+  background: var(--light);
+  /* fallback if rgba not supported */
   background: #d6cef6eb;
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
