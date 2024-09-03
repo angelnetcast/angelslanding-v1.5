@@ -58,6 +58,17 @@ a:hover {
   background: var(--light);
 }
 
+/* ----- spoilers ----- */
+.spoiler {
+  color: var(--light);
+  background: var(--light);
+}
+
+:hover.spoiler {
+  color: var(--light);
+  background: var(--black);
+}
+
 /* ----- list bullets ----- */
 ul {
   list-style-type: disc;
@@ -114,6 +125,12 @@ td {
   font-size: 11px;
   line-height: 16px;
   color: var(--mediumdark);
+}
+
+.caption {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: var(--medium);
 }
 
 /* -------------- main layout -------------- */
