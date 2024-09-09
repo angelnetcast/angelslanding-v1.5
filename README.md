@@ -1,2 +1,3 @@
 # angelslanding-v1.5
-version 1.5 of angel's landing. has cleaned files and code from v1 while i work on design for v2
+version 1.5 of angel's landing.
+recoding pages from previous versions of the site to make updating easier on the backend. very little css while i work on this.
